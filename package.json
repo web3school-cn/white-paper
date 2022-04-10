@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "alpha-0.0.1版本",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "commit": "git add . && git-cz"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/web3school-cn/white-paper.git"
@@ -13,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/web3school-cn/white-paper/issues"
   },
-  "homepage": "https://github.com/web3school-cn/white-paper#readme"
+  "homepage": "https://github.com/web3school-cn/white-paper#readme",
+  "dependencies": {
+    "git-cz": "^4.8.0"
+  }
 }
